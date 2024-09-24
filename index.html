@@ -72,6 +72,20 @@
             }
         }
 
+        /* Estilização do rodapé */
+        .footer {
+            position: fixed;
+            bottom: 10px;
+            /* Define a distância do texto ao fundo da página */
+            width: 100%;
+            text-align: center;
+            font-size: 14px;
+            color: rgba(0, 0, 0, 0.4);
+            /* Cor suave, em cinza claro */
+            font-style: italic;
+        }
+
+
         /* Ajustes para telas menores (celulares) */
         @media (max-width: 600px) {
             #conteudo {
@@ -128,6 +142,9 @@
             return (Math.random() * (max - min) + min) + "%";
         }
     </script>
+
+    <p class="footer">Made by your dear...</p>
+
 
 </body>
 
